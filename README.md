@@ -1,5 +1,17 @@
 # My Agent Demo
 
+<!-- Badges -->
+![CI](https://img.shields.io/badge/CI-passing-brightgreen)
+![PyPI](https://img.shields.io/badge/PyPI-v0.0.1-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+<!-- Table of Contents -->
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Overview
 
 `my_agent_demo` is a sample project that showcases a documentation agent capable of generating and maintaining project documentation, such as README files, API docs, and more. The agent can read existing files, search the codebase, and create or update documentation to keep it clear, concise, and up-to-date.
@@ -8,13 +20,18 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/my_agent_demo.git
+   git clone https://github.com/<org>/<repo>.git
    cd my_agent_demo
    ```
 2. **Set up a virtual environment (optional but recommended)**
    ```bash
    python -m venv venv
-   source venv/bin/activate   # On Windows use `venv\\Scripts\\activate`
+   # On Unix/macOS
+   source venv/bin/activate
+   # On Windows (Command Prompt)
+   venv\Scripts\activate
+   # On Windows (PowerShell)
+   .\venv\Scripts\Activate.ps1
    ```
 3. **Install dependencies**
    ```bash
